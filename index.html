@@ -18,9 +18,9 @@
 		embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
         
-        <a-entity gltf-model="./assets/magnemite/scene.gltf" position="0 0 -3" rotation="0 180 0" scale="0.3 0.3 0.3" gps-entity-place="longitude: 8.521082; latitude: 47.395663;" animation-mixer/>
+        <a-entity gltf-model="./assets/magnemite/scene.gltf" position="0 0 -6" rotation="0 180 0" scale="0.3 0.3 0.3" gps-entity-place="latitude: 47.395663; longitude: 8.521082" animation-mixer/>
 
-        <a-camera gps-camera rotation-reader></a-camera>
+        <a-camera gps-camera rotation-reader positionMinAccuracy="100" alert="true"></a-camera>
 	</a-scene>
 </body>
 
